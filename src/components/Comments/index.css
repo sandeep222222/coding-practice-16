@@ -1,0 +1,125 @@
+/* Write your CSS here */
+
+.Comment-app-container {
+  display: flex;
+
+  justify-content: center;
+  margin-top: 48px;
+}
+
+.Comment-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 550px;
+}
+
+.comment-heading {
+  color: #1e293b;
+  font-family: 'roboto';
+  font-size: 45px;
+  margin-bottom: 12px;
+  font-weight: 500px;
+}
+
+.description {
+  font-size: 18px;
+  font-family: 'roboto';
+  color: #1e293b;
+  margin-top: 24px;
+  font-weight: bold;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  order: 1;
+}
+
+.name-input {
+  font-family: 'roboto';
+  font-size: 16px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+}
+
+.comment-input {
+  font-family: 'roboto';
+  font-size: 16px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+}
+
+.button {
+  font-family: 'roboto';
+  color: #ffffff;
+  background-color: #0284c7;
+  margin-top: 16px;
+  border: none;
+  width: 130px;
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+  align-self: flex-start;
+  outline: none;
+  cursor: pointer;
+}
+
+.image {
+  width: 280px;
+  height: 200px;
+  margin-left: 840px;
+}
+
+.comment-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.line {
+  border: 1px solid #cbd2d9;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.comments-list {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.heading {
+  color: #475569;
+  font-family: 'roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.comments-list {
+  text-align: center;
+  color: #ffffff;
+  background-color: #0284c7;
+  font-size: 12px;
+  font-family: 'roboto';
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  border-radius: 4px;
+}
